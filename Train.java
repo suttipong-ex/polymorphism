@@ -9,7 +9,7 @@ package polymorphism;
  *
  * @author Suttipong
  */
-public class train extends vehicle{
+public class Train extends Vehicle{
     @Override
     public void move() {
         System.out.println("Run on the track");

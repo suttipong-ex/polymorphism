@@ -9,9 +9,7 @@ package polymorphism;
  *
  * @author Suttipong
  */
-public class truck extends vehicle {
-    @Override
-    public void move() {
-        System.out.println("Run on the road");
-    }    
+public class Vehicle {
+    Vehicle(){}
+    public void move(){}
 }

@@ -9,10 +9,9 @@ package polymorphism;
  *
  * @author Suttipong
  */
-public class main {
-    public static void main(String[] args) {
-        vehicle v = new truck();
-        v = new train();
-        v.move();
-    }
+public class Truck extends Vehicle {
+    @Override
+    public void move() {
+        System.out.println("Run on the road");
+    }    
 }

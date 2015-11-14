@@ -9,7 +9,10 @@ package polymorphism;
  *
  * @author Suttipong
  */
-public class vehicle {
-    vehicle(){}
-    public void move(){}
+public class Main {
+    public static void main(String[] args) {
+        Vehicle v = new Truck();
+        v = new Train();
+        v.move();
+    }
 }
